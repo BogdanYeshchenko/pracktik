@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.conteiner {
+  padding-left: 16px;
+  padding-right: 16px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.conteiner.hero {
+  display: flex;
+}
+
+.hero-title {
+  position: absolute;
+
+  width: 288px;
+
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.21;
+  text-align: center;
+
+  color: #000000;
+}
+
+.hero-mintitle {
+  width: 46px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+
+  color: #000000;
+}
+
+.hero__img {
+  width: 145px;
+  height: 274px;
+}
+
+.hero__btn {
+  background-color: inherit;
+  border: none;
+}

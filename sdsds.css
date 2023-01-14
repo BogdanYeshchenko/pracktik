@@ -1,0 +1,4 @@
+// =================================================
+.form__input:not(:placeholder-shown):invalid {
+  border-color: rgba(250, 0, 0, 0.6);
+}
