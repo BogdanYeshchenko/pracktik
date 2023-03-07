@@ -14,6 +14,86 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+    <section class="hero-section">
+      <div class="container hero">
+        <h1 class="hiro-title">
+          A party without cocktails<br />
+          is not like a party
+        </h1>
+        <picture>
+          <source
+            media="(min-width:1280px)"
+            srcset="
+              ./images/hero-img/group_lg501@1x.png 1x,
+              ./images/hero-img/group_lg501@2x.png 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="
+              ./images/hero-img/group_md336@1x.png 1x,
+              ./images/hero-img/group_md336@2x.png 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:480px)"
+            srcset="
+              ./images/hero-img/group_sm280@1x.png 1x,
+              ./images/hero-img/group_sm280@2x.png 2x
+            "
+            type="image/jpg"
+          />
+          <img
+            src="./images/hero-img/group_sm280@1x.png"
+            alt="grapefruit cocktail"
+          />
+        </picture>
+        <p>Search your favorite cocktail by ABC</p>
+        <form name="search-letter" class="search-letter">
+          <select name="size" class="select-letter">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+            <option value="J">J</option>
+            <option value="K">K</option>
+            <option value="L">L</option>
+            <option value="M">M</option>
+            <option value="N">N</option>
+            <option value="O">O</option>
+            <option value="P">P</option>
+            <option value="Q">Q</option>
+            <option value="R">R</option>
+            <option value="S">S</option>
+            <option value="T">T</option>
+            <option value="U">U</option>
+            <option value="V">V</option>
+            <option value="W">W</option>
+            <option value="X">X</option>
+            <option value="Y">Y</option>
+            <option value="Z">Z</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="0">0</option>
+          </select>
+        </form>
+      </div>
+    </section>
+
     <script src="./index.js"></script>
   </body>
 </html>

@@ -103,3 +103,7 @@ body {
   background-color: inherit;
   border: none;
 }
+
+.hiro-title {
+  @include fonts($fw: 600, $fs: 22px, $lh: 1.9, $color: var(--main-text-cl));
+}
